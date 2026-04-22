@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: beige;
+    text-align: justify;
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:0;
+    background-color: rgb(10, 10, 34);
+    width: 100vw;
+    height: 20px;
+    align-items:center;
+    
+}
+
+
+
+.navobject{
+    text-decoration: none;
+    background-color:rgb(10, 10, 34);
+    color: beige;
+}
+
+
+#welcome{
+display: flex;
+gap:30px;
+
+}
+
+#pic1{
+    height:150px;   
+}
+
+#legacy{
+display: flex;
+flex-direction: row;
+gap:30px;
+}
+
+#pic2{
+    height: 150px;
+}
+
+@media(max-width: 768px){
+#welcome{
+    flex-direction: column;
+    align-items: center;
+}
+#pic1{
+    width: 300px;
+}
+#legacy{
+    flex-direction: column;
+    align-items: center;
+}
+#pic2{
+    width: 300px;
+}
+}
+
